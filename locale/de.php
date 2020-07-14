@@ -1,4 +1,8 @@
-<?php if (!defined('APPLICATION')) exit();
+<?php
+
+if (!defined('APPLICATION')) {
+    exit();
+}
 
 $Definition['Plugins.DiscussionPolls.SavedPartial'] = 'Deine Auswahl wurde gespeichert.';
 $Definition['Plugins.DiscussionPolls.UnsweredAllQuestions'] = 'Du hast nicht alle Fragen beantwortet!';

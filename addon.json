@@ -1,7 +1,7 @@
 {
     "name": "Discussion Polls",
     "description": "A plugin that allows creating polls that attach to a discussion. Respects permissions.",
-    "version": "1.3.6",
+    "version": "1.4.0",
     "registerPermissions": [
         "Plugins.DiscussionPolls.Add",
         "Plugins.DiscussionPolls.View",
@@ -14,6 +14,9 @@
     "license": "GPLv3",
     "key": "discussionpolls",
     "type": "addon",
+    "require": {
+        "vanilla": ">=3.0"
+    },
     "authors": [
         {
             "name": "Zachary Doll",

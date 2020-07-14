@@ -1,4 +1,8 @@
-<?php if (!defined('APPLICATION')) exit();
+<?php
+
+if (!defined('APPLICATION')) {
+    exit();
+}
 
 $Definition['Plugins.DiscussionPolls.SavedPartial'] = 'Les réponses ont été sauvegardées.';
 $Definition['Plugins.DiscussionPolls.UnsweredAllQuestions'] = 'Il faut répondre à toutes les questions!';
